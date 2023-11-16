@@ -18,6 +18,11 @@ const router = new VueRouter({
       name: "hoc",
       component: () => import("@/views/HOCView.vue"),
     },
+    {
+      path: "/options",
+      name: "options",
+      component: () => import("@/views/OptionsView.vue"),
+    },
   ],
 });
 
